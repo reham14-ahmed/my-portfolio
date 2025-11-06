@@ -1,233 +1,260 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Portfolio of Reham Ahmed, Backend Developer specialized in Node.js, Express, and MongoDB.">
+    <title>Reham Ahmed | Backend Developer</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- ===== Navbar ===== -->
-  <header class="navbar">
+<header class="navbar">
     <div class="logo"><h2>Reham Ahmed</h2></div>
-    <nav>
-      <ul>
-        <li><a href="#cover">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#courses">Courses</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#feedback">Feedback</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+    <button class="menu-toggle" aria-label="Toggle navigation">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </button>
+    <nav class="nav-menu"> 
+        <ul>
+            <li><a href="#cover">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </nav>
-  </header>
+</header>
 
-  <!-- ===== Cover Section ===== -->
-  <section id="cover" class="cover">
+<section id="cover" class="cover">
     <div class="cover-content">
-      <h1>Hi, I'm <span>Reham Ahmed</span></h1>
-      <h3>Full-Stack Developer</h3>
-      <div class="cover-buttons">
-        <a href="#contact" class="btn">Hire Me</a>
-      </div>
+        <h1>Hi, I'm <span>Reham Ahmed</span></h1>
+        <h3>Backend Developer | Specialized in **Node.js, Express, and MongoDB** (NTI Grant).</h3>
+        <div class="cover-buttons">
+            <a href="#contact" class="btn">Hire Me</a>
+            <a href="reham_ahmed_cv.pdf" class="btn secondary-btn" download>Download CV</a>
+        </div>
     </div>
-    <!-- Background circles -->
     <div class="circle circle1"></div>
     <div class="circle circle2"></div>
     <div class="circle circle3"></div>
-  </section>
+</section>
 
-  <!-- ===== About Me ===== -->
-  <section id="about" class="about-section section">
+<section id="about" class="about-section section">
+    <h2 class="section-title">About Me</h2>
     <div class="about-container">
-      <div class="about-photo-wrapper">
-        <img src="WhatsApp Image 2025-08-25 at 12.13.40_7ca3fcf0.jpg" alt="Reham Ahmed" class="about-photo">
-      </div>
-      <div class="about-text">
-        <h2>About Me</h2>
-        <p>
-        Passionate Backend Developer with hands-on experience in Node.js, Express, and Angular.
-Completed 130 hours of Frontend training at ITI and 210 hours of Backend + Angular training at NTI.
-
-Worked on a university team project and multiple training apps, gaining practical experience in teamwork and problem-solving.
-Focused on building scalable APIs while keeping strong Frontend fundamentals to support full-stack
-        </p>
-      </div>
+        <div class="about-photo-wrapper">
+            <img src="WhatsApp Image 2025-08-25 at 12.13.40_7ca3fcf0.jpg" alt="Reham Ahmed" class="about-photo">
+        </div>
+        <div class="about-text">
+            <h3>Backend Focus, Full-Stack Capability</h3>
+            <p>
+            Passionate Backend Developer with hands-on experience in **Node.js, Express, and Angular**.
+            Completed intensive training (130 hours Frontend at ITI and 210 hours Backend at NTI).
+            My focus is on designing **scalable and secure APIs**, backed by strong frontend fundamentals to deliver seamless full-stack applications.
+            </p>
+        </div>
     </div>
-  </section>
+</section>
 
-  <!-- ===== Education ===== -->
-  <section id="education" class="section">
-    <div class="edu-img2">
-      <img src="logo computer scin.jpg" alt="University">
-    </div>
-    <div class="edu-text">
-      <h3>Computer Science</h3>
-      <p class="uni">South Valley University</p>
-      <p class="year">2024 – 2027</p>
-    </div>
-  </section>
-
-  <!-- ===== Courses ===== -->
-  <section id="courses" class="section">
-    <h2>Courses</h2>
+<section id="education" class="section">
+    <h2 class="section-title">Education & Certifications</h2>
     <div class="edu-container">
-      <div class="edu-card">
-        <div class="edu-img">
-          <img src="nti.webp" alt="NTI Course">
+        <div class="edu-card">
+            <i class="fas fa-graduation-cap edu-icon"></i>
+            <div class="edu-text">
+                <h3>Computer Science Degree</h3>
+                <p class="uni">South Valley University</p>
+                <p class="year">2024 – 2027</p>
+            </div>
         </div>
-        <div class="edu-text">
-          <h3>Backend Development</h3>
-          <p class="uni">NTI</p>
-          <p class="year">2025</p>
+        <div class="edu-card">
+            <i class="fas fa-code edu-icon"></i>
+            <div class="edu-text">
+                <h3>Backend Development (NTI)</h3>
+                <p class="uni">National Telecommunication Institute</p>
+                <p class="year">2025 | 210 Hours</p>
+            </div>
         </div>
-      </div>
-      <div class="edu-card">
-        <div class="edu-img">
-          <img src="iti.webp" alt="ITI Course">
+        <div class="edu-card">
+            <i class="fas fa-desktop edu-icon"></i>
+            <div class="edu-text">
+                <h3>Front-end Development (ITI)</h3>
+                <p class="uni">Information Technology Institute</p>
+                <p class="year">2024 | 130 Hours</p>
+            </div>
         </div>
-        <div class="edu-text">
-          <h3> Front-end Development</h3>
-          <p class="uni">ITI</p>
-          <p class="year">2024</p>
-        </div>
-      </div>
     </div>
-  </section>
+</section>
 
-  <!-- ===== Projects ===== -->
-  <section id="projects" class="section">
-    <h2>Projects</h2>
+<section id="projects" class="section">
+    <h2 class="section-title">My Projects</h2>
     <div class="projects-container">
-      <div class="project-card">
-        <img src="code Data.jpg" alt="Project 1">
-        <h3>Data management</h3>
-        <p>Purpose: A full-featured backend system designed to manage users and data efficiently.
+        
+        <div class="project-card">
+            <img src="code Data.jpg" alt="Project 1">
+            <h3>Data Management & Secure API</h3>
+            <p>A robust system designed for efficient data and user management.</p>
+        
+            <div class="project-links">
+                <a href="https://github.com/reham14-ahmed/Personal-Data-Management-API.git" target="_blank" class="link-btn primary-github-btn"><i class="fab fa-github"></i> View Code</a>
+            </div>
+        </div>
 
-Technologies: Node.js, TypeScript, MongoDB.
-
-How it was built: Developed 30+ REST APIs for user registration, authentication, data handling, and security with JWT.
-</p>
-      </div>
-      <div class="project-card">
-        <img src="project.jpg" alt="Project 2">
-        <h3>Movieverse</h3>
-        <p>
-Purpose: A responsive movie portfolio website to showcase and explore movies.
-
-Technologies: HTML, CSS, JavaScript.
-
-How it was built: Implemented a modern, responsive design using Flexbox/Grid, with an intuitive navigation bar and search functionality</p>
-      </div>
-   
-  </section>
-
-  <!-- ===== Skills ===== -->
-  <section id="skills" class="section">
-    <h2>Skills</h2>
-    <div class="skills-container">
-      <div class="skills-box">
-        <h3>💻 Technical Skills</h3>
-        <ul>
-          <li>HTML5, CSS3, JavaScript (ES6+)<span class="skill-bar" data-width="90%"></span></li>
-          <li>TypeScript, React, Angular<span class="skill-bar" data-width="85%"></span></li>
-          <li>Node.js, Express.js, MongoDB<span class="skill-bar" data-width="90%"></span></li>
-          <li>REST API Development<span class="skill-bar" data-width="80%"></span></li>
-          <li>Git & GitHub<span class="skill-bar" data-width="95%"></span></li>
-        </ul>
-      </div>
-      <div class="skills-box">
-        <h3>🤝 Soft Skills</h3>
-        <ul>
-          <li>Problem Solving & Debugging</li>
-          <li>Teamwork & Collaboration</li>
-          <li>Time Management</li>
-          <li>Strong Communication</li>
-          <li>Adaptability & Creativity</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== Services ===== -->
-  <section id="services" class="section">
-    <h2>Services</h2>
-    <div class="services-container">
-      <div class="service-card">
-        <h3>💻 Backend Development</h3>
-        <p>Building secure and scalable backend systems with clean, maintainable code.</p>
-      </div>
-      <div class="service-card">
-        <h3>🌐 Web Applications</h3>
-        <p>Creating full-stack web apps with modern UI/UX and backend integration.</p>
-      </div>
-      <div class="service-card">
-        <h3>🗄️ Database Design</h3>
-        <p>Designing optimized and scalable databases for web and mobile applications.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== Feedback ===== -->
-  <section id="feedback" class="section">
-    <h2>Feedback</h2>
-    <div class="feedback-container">
-      <div class="feedback-card"><img src="feedback1.jpg" alt="Client 1"></div>
-      <div class="feedback-card"><img src="feedback2.jpg" alt="Client 2"></div>
-      <div class="feedback-card"><img src="feedback3.jpg" alt="Client 3"></div>
-      <div class="feedback-card"><img src="feedback4.jpg" alt="Client 4"></div>
-      <div class="feedback-card"><img src="feedback5.jpg" alt="Client 5"></div>
-    </div>
-  </section>
-
-  <!-- ===== Footer ===== -->
-  <footer>
-    <div class="footer-container">
-      <div class="contact-info">
-        <p>📞 +20 1143190977 | 📧 reham.A.fekry@gmail.com</p>
-      </div>
-      <div class="social-links">
-        <a href="https://linkedin.com/in/reham" target="_blank">🔗 www.linkedin.com/in/reham-ahmed-103408357</a>
-        <a href="https://github.com/reham" target="_blank">🐙 https://github.com/reham14-ahmed</a>
+        <div class="project-card">
+            <img src="project.jpg" alt="Project 2">
+            <h3>Movieverse - Responsive UI</h3>
+            <p>A responsive movie portfolio website showcasing clean design and search functionality. (Code available upon request)</p>
+             <ul>
+                <li>**Team Role:** Led the frontend styling and ensured cross-browser compatibility.</li>
+                <li>**Focus:** Implemented modern responsive design techniques (Flexbox/Grid).</li>
+            </ul>
+            <div class="project-links">
+                <a href="#contact" class="link-btn contact-for-code-btn"><i class="fas fa-paper-plane"></i> Contact for Code</a>
+            </div>
+        </div>
         
     </div>
-    <div class="footer-copy">
-      <p>&copy; 2025 Reham Ahmed | All Rights Reserved</p>
+</section>
+
+<section id="skills" class="section">
+    <h2 class="section-title">Technical Skills</h2>
+    <div class="skills-container">
+        <div class="skills-box">
+            <h3>Backend & Database</h3>
+            <ul>
+                <li>Node.js, Express.js<span class="skill-bar" data-width="90%"></span></li>
+                <li>MongoDB, Mongoose<span class="skill-bar" data-width="85%"></span></li>
+                <li>REST API Development (JWT, Auth)<span class="skill-bar" data-width="90%"></span></li>
+                <li>TypeScript, Postman<span class="skill-bar" data-width="90%"></span></li>
+            </ul>
+        </div>
+        <div class="skills-box">
+            <h3>Frontend & Tools</h3>
+            <ul>
+                <li>HTML5, CSS3, JavaScript (ES6+)<span class="skill-bar" data-width="95%"></span></li> 
+                <li>Responsive Design (Flexbox/Grid)<span class="skill-bar" data-width="85%"></span></li>
+                <li>Git & GitHub, Deployment<span class="skill-bar" data-width="90%"></span></li>
+                <li>Problem Solving & Debugging<span class="skill-bar" data-width="90%"></span></li>
+            </ul>
+        </div>
     </div>
-  </div>
+</section>
+
+<section id="services" class="section">
+    <h2 class="section-title">What I Offer</h2>
+    <div class="services-container">
+        <div class="service-card">
+            <i class="fas fa-server service-icon"></i>
+            <h3>Backend Development</h3>
+            <p>Building secure, scalable, and high-performance REST APIs using Node.js and Express.js.</p>
+        </div>
+    <div class="service-card">
+    <i class="fas fa-code service-icon"></i>
+    <h3>API Integration & Testing</h3>
+    <p>Ensuring seamless connection between the backend API and any frontend application, including robust testing using tools like Postman.</p>
+</div>
+        <div class="service-card">
+            <i class="fas fa-database service-icon"></i>
+            <h3>Database Design</h3>
+            <p>Designing and managing optimized NoSQL databases (MongoDB) for reliability and speed.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="section">
+    <h2 class="section-title">Get In Touch</h2>
+    <div class="contact-container">
+        <p class="contact-intro">I'm currently available for new projects and job opportunities. Let's discuss your next project!</p>
+        
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn contact-btn">Send Message</button>
+        </form>
+
+        <div class="contact-info-list">
+            <p><i class="fas fa-phone-alt"></i> **Phone:** <a href="tel:+201143190977">+20 1143190977</a></p>
+            <p><i class="fas fa-envelope"></i> **Email:** <a href="mailto:reham.A.fekry@gmail.com">reham.A.fekry@gmail.com</a></p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-container">
+        <div class="social-links">
+            <a href="https://linkedin.com/in/reham-ahmed-103408357" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="https://github.com/reham14-ahmed" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+        <div class="footer-copy">
+            <p>&copy; 2025 Reham Ahmed | All Rights Reserved</p>
+        </div>
+    </div>
 </footer>
 
 
 <script>
-  const navbar = document.querySelector('.navbar');
-window.addEventListener('scroll', () => {
-  if(window.scrollY > 50){
-    navbar.classList.add('scrolled');
-  } else {
-    navbar.classList.remove('scrolled');
-  }
+    // 1. Defining Essential Elements
+    const navbar = document.querySelector('.navbar');
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navMenu = document.querySelector('.nav-menu'); 
+    const skillsSection = document.getElementById('skills');
+    let skillsAnimated = false; 
 
-  // Animate sections
-  document.querySelectorAll('.section').forEach(section => {
-    const top = section.getBoundingClientRect().top;
-    if(top < window.innerHeight - 100){
-      section.classList.add('show');
-    }
-  });
+    // 2. Scroll Event Listener
+    window.addEventListener('scroll', () => {
+        // Navbar scroll effect
+        if(window.scrollY > 50){
+            navbar.classList.add('scrolled');
+        } else {
+            navbar.classList.remove('scrolled');
+        }
 
-  // Animate skill bars
-  const skillBars = document.querySelectorAll('.skill-bar');
-  skillBars.forEach(bar => {
-    const top = bar.getBoundingClientRect().top;
-    if(top < window.innerHeight - 50){
-      bar.style.width = bar.getAttribute('style-width') || bar.style.width;
+        // Section visibility animation
+        document.querySelectorAll('.section').forEach(section => {
+            const top = section.getBoundingClientRect().top;
+            if(top < window.innerHeight - 100){
+                section.classList.add('show');
+            }
+        });
+
+        // Skill bars animation (using CSS Variables)
+        if(skillsSection && !skillsAnimated) {
+            const skillsTop = skillsSection.getBoundingClientRect().top;
+            if (skillsTop < window.innerHeight - 150) {
+                document.querySelectorAll('.skill-bar').forEach(bar => {
+                    const widthValue = bar.getAttribute('data-width');
+                    // تطبيق العرض باستخدام متغير CSS
+                    bar.style.setProperty('--skill-width', widthValue);
+                });
+                skillsAnimated = true; 
+            }
+        }
+    });
+
+    // 3. Hamburger Menu Toggle
+    if (menuToggle && navMenu) { 
+        menuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active'); 
+            menuToggle.classList.toggle('open'); 
+        });
+
+        // 4. Close menu on link click
+        document.querySelectorAll('.nav-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                if (window.innerWidth <= 800) { 
+                    navMenu.classList.remove('active');
+                    menuToggle.classList.remove('open');
+                }
+            });
+        });
     }
-  });
-});
 </script>
 </body>
 </html>
